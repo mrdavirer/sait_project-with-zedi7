@@ -4,4 +4,4 @@ function MainPage (){
     )
 };
 
-export defoult MainPage;
+export default MainPage;

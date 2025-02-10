@@ -1,14 +1,9 @@
 import './App.css';
 import MainPage from './components/MainPage'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
-  <BrowserRouter>
-  <Header/>
-  <Routes>
-    <Route path="/" element={<MainPage/>}/>
-  </Routes>
-  <Footer/>
-</BrowserRouter>
+  <MainPage/>
 }
 
 export default App;
